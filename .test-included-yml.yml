@@ -1,0 +1,6 @@
+test-included-yml:
+  stage: deploy
+  tags:
+    - demo
+  script:
+    - echo "This is an included yml"
